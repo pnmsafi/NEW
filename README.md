@@ -1,2 +1,2 @@
 # NEW
-https://github.com/pnmsafi/NEW/FFOI.html
+https://github.com/pnmsafi/NEW/FFOI.HTML
