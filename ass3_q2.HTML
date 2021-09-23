@@ -9,9 +9,9 @@ color : blue;
 .sd{
 background-color : red;
 }
-p{
-font-style : italic;
-}
+.ad.sd {
+            font-style: italic;
+        }
 h3{
     font-size: x-large;
     color: rgb(19, 110, 31);
@@ -40,15 +40,15 @@ H2{
     <tr><td>
     
         
-        <p class="ad">  Before introducing the thread concept, we were unable to run more than one task in parallel. It was a drawback, and to remove that drawback, Thread Concept was introduced.</p>
-        <p class="sd">
+        <p class="ad sd">  Before introducing the thread concept, we were unable to run more than one task in parallel. It was a drawback, and to remove that drawback, Thread Concept was introduced.</p>
+        <p class="ad">
             
             A Thread is a very light-weighted process, or we can say the smallest part of the process that allows a program to operate more efficiently by running multiple tasks simultaneously.
         </p>
-        <p class="ad">
+        <p class="sd">
             
             In order to perform complicated tasks in the background, we used the Thread concept in Java. All the tasks are executed without affecting the main program. In a program or process, all the threads have their own separate path for execution, so each thread of a process is independent.</p>
-            <p class="sd">Another benefit of using <strong>thread</strong> is that if a thread gets an exception or an error at the time of its execution, it doesn't affect the execution of the other threads. All the threads share a common memory and have their own stack, local variables and program counter. When multiple threads are executed in parallel at the same time, this process is known as <strong>Multithreading</a></strong>.</p>
+            <p class="ad sd">Another benefit of using <strong>thread</strong> is that if a thread gets an exception or an error at the time of its execution, it doesn't affect the execution of the other threads. All the threads share a common memory and have their own stack, local variables and program counter. When multiple threads are executed in parallel at the same time, this process is known as <strong>Multithreading</a></strong>.</p>
             
         </td><td>
     
@@ -59,9 +59,9 @@ H2{
        
     <H3><u> a simple way, a Thread is a:</H3></u>
     <ul class="points">
-        <p class="ad">
+        <p >
 
-            <H2 class="ad">
+            <H2 class="ad ">
                 
                 <li>Feature through which we can perform multiple activities within a single process.</li>
                 <li>Lightweight process.</li>
@@ -69,7 +69,7 @@ H2{
                 <li>Nested sequence of method calls.</li>
             </H2>
             <h2 class="h2">Thread Model</h2>
-            <span class="sd">Just like a process, a thread exists in several states. These states are as follows:</span><div>
+            <span class="ad">Just like a process, a thread exists in several states. These states are as follows:</span><div>
 
                 <img src="https://static.javatpoint.com/core/images/thread-concept-in-java2.png" alt="Thread Concept in Java" />
             </div>
